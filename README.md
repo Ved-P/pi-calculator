@@ -15,5 +15,5 @@ To run these methods, first download Java in case you have not. Then, download t
 
 ```
 javac *.java
-java PiCalculator.java
+java PiCalculator
 ```
