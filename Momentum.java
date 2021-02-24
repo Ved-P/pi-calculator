@@ -1,13 +1,19 @@
 /**
  *  Calculates pi using the Law of Conservation of Momentum.
  *
- *  Technique by Grant Sanderson.
+ *  Technique by Grant Sanderson (3Blue1Brown).
  *
  *  @author Ved Pradhan
  *  @since  December 12, 2020
  */
 
 public class Momentum {
+
+  public static void describe() {
+    System.out.println("\nThis method uses an algorithm based on the Law of "
+      + "Conservation of Momentum to calculate pi to a certain digit. This "
+      + "technique is by Grant Sanderson (3Blue1Brown).");
+  }
 
   public static double pi(long d) {
     double m1 = 1.0;

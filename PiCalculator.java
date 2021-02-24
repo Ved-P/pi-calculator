@@ -8,11 +8,13 @@
 public class PiCalculator {
 
   public static void main(String[] args) {
-    System.out.println(pi(1));
-    System.out.println(pi(2));
-    System.out.println(pi(3));
-    System.out.println(pi(4));
-    System.out.println(pi(5));
+
+    Momentum.describe();
+    System.out.println(Momentum.pi(1));
+    System.out.println(Momentum.pi(2));
+    System.out.println(Momentum.pi(3));
+    System.out.println(Momentum.pi(4));
+    System.out.println(Momentum.pi(5) + "\n");
   }
 
 }
